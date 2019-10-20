@@ -39,7 +39,7 @@ function longPlaneteerCalls(words) {
 }
 longPlaneteerCalls()
 
-
+//if( (A && !B) || (B && !A) ) { ... }
 
 function findTheCheese (foods) {
    console.log(foods)
