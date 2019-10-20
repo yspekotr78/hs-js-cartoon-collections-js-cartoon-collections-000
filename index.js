@@ -15,8 +15,6 @@ function summonCaptainPlanet(planeteerCalls){
   for (let x = 0; x < planeteerCalls.length; x++) {
 //   calls = calls +`${planeteerCalls[x].toUpperCase()}! ` ;
     calls.push(planeteerCalls[x].toUpperCase()+"!") 
- 
-    
   }
   console.log(planeteerCalls)
   console.log(calls)
@@ -42,5 +40,23 @@ function longPlaneteerCalls(words) {
 longPlaneteerCalls()
 
 
+
 function findTheCheese (foods) {
+   console.log(foods)
+   for (let x = 0; x < foods.length; x++) {
+     if(foods[x]===`gouda`||foods[x]===`cheddar`||foods[x]===`camembert`){
+       console.log(foods[x])
+       return foods[x]
+     }
+  //   if(foods[x]===`cheddar`){
+ //    console.log(foods[x])
+ //    return foods[x]
+//     }
+ //    if(foods[x]===`camembert`){
+ //    console.log(foods[x])
+//     return foods[x]
+ //    } 
+  }
+  return `no cheese!`
 }
+findTheCheese()
