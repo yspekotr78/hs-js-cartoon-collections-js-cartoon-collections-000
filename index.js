@@ -2,18 +2,23 @@
 function dwarfRollCall(dwarves) {  
   var order = [];
   for (let x = 0; x < dwarves.length; x++) {
-    order = order +`${[x+1]}. ${dwarves[x]} `;
+      order = order +`${[x+1]}. ${dwarves[x]} `;
   }
-return order;
+console.log(order)
+return order
 }
+dwarfRollCall()
 
 function summonCaptainPlanet(planeteerCalls){
+  console.log(planeteerCalls)
   var calls = []
   for (let x = 0; x < planeteerCalls.length; x++) {
-    calls.push(planeteerCalls[x].toUpperCase()+"!") 
+     calls.push(planeteerCalls[x].toUpperCase()+"!");
   }
+  console.log(calls)
   return calls
 }
+summonCaptainPlanet()
 
 function longPlaneteerCalls(words) {
   for (let x = 0; x < words.length; x++) {
